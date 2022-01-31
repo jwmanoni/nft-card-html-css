@@ -38,7 +38,7 @@ document.getElementById('toggle_nft').addEventListener('click', function () {
     else {
         document.getElementById('owner').innerText = 'Jacob Manoni';
         document.getElementById('profile_picture').src = "https://media-exp1.licdn.com/dms/image/C4E03AQGwWAemmwiHJQ/profile-displayphoto-shrink_800_800/0/1603032046413?e=1648684800&v=beta&t=28QzxrP_k7MzfO2PnO_sWJ32VJBvcpkV-_2FpGNGZQY";
-        document.getElementById('duration').innerText = '3 Days Left'
+        document.getElementById('duration').innerText = '3 Days left'
         document.body.style.backgroundColor = "#190933";
         document.getElementById('price').innerText = "49.07ETH";
         document.getElementById('name').innerText = "Perception #3333"
