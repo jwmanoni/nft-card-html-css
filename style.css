@@ -8,14 +8,31 @@
 body {
     background-color: #190933;
     display: flex;
+    flex-direction: column;
     width:100%;
     height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-family: 'Roboto';
+
+}
+#toggle_nft:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#toggle_nft {
+    height: 75px;
+    width: 200px;
+    background-color: rgba(15, 52, 107, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id{
+    color: white
 }
 
-.container {
+#container {
     width: 275px;
     height: 500px;
     background-color: #476C9B;
@@ -39,7 +56,7 @@ body {
     height: 50%;
 }
 
-#NFT {
+#nft {
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -68,7 +85,7 @@ h3 {
     width: 95px;
 }
 
-p.price {
+#price {
     color: white;
 }
 
@@ -92,4 +109,9 @@ p{
 
 span {
     color: white;
+}
+.toggle_nft {
+    height: 50px;
+    width: 150px;
+    background-color: red;
 }

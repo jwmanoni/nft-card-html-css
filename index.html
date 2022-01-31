@@ -8,34 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div id="container">
         <div class="NFT_container">
-            <img id="NFT"src="https://image.freepik.com/free-photo/colorful-3d-shapes-vaporwave-style_23-2148981126.jpg" alt="equilibrium-nft">
+            <img id="nft" src="https://image.freepik.com/free-photo/colorful-3d-shapes-vaporwave-style_23-2148981126.jpg" alt="equilibrium-nft">
         </div>
 
         <div class="content">
-            <h3>Perception #3333</h3>
-            <p>Our Perception collection promotes discipline, control, and focus</p>
+            <h3 id="name">Perception #3333</h3>
+            <p id="description">Our Perception collection promotes discipline, control, and focus</p>
 
             <div class="info">
                 <div class="stat">
                     <img src="./images/icon-ethereum.svg" alt="ethereum">
-                    <p class="price">49.07ETH</p>
+                    <p id="price">49.07ETH</p>
                 </div>
     
                 <div class="stat">
                     <img src="./images/icon-clock.svg" alt="clock">
-                    <p>3 days left</p>
+                    <p id="duration">3 days left</p>
                 </div>
             </div>
         </div>
 
         <div class="footer">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGwWAemmwiHJQ/profile-displayphoto-shrink_800_800/0/1603032046413?e=1648684800&v=beta&t=28QzxrP_k7MzfO2PnO_sWJ32VJBvcpkV-_2FpGNGZQY" alt="avatar">
-            <p>Creation of <span>Jacob Manoni</span></p>
+            <img id="profile_picture" src="https://media-exp1.licdn.com/dms/image/C4E03AQGwWAemmwiHJQ/profile-displayphoto-shrink_800_800/0/1603032046413?e=1648684800&v=beta&t=28QzxrP_k7MzfO2PnO_sWJ32VJBvcpkV-_2FpGNGZQY" alt="avatar">
+            <p>Creation of <span id="owner">Jacob Manoni</span></p>
         </div>
         
         
     </div>
+    <div id="toggle_nft">
+        <p>Press to Change</p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
